@@ -1,0 +1,464 @@
+/* Variables */
+
+  :root {
+     --basic-black: #000000;
+     --basic-white: #FFFFFF;
+     --basic-grey: #8B8B8B;
+     --basic-blue: #0000ff;
+     --basic-lightblue: #64B5F6;
+   }
+ 
+   body {
+     font-family: "Roboto Mono", serif;
+     line-height: 24px;
+     font-weight: 700;
+     color: var(--basic-white);
+     text-transform: none;
+     background-color: var(--basic-black);
+   }
+
+   .page-wrapper {
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--basic-green);
+  }
+
+  .background-planetarium {
+    background-image: url(/img/Background-image-1.png);
+    background-repeat: no-repeat;
+    height: 685px;
+  }
+
+  h1 {
+    font-family: Zen Dots;
+    font-size: 65px;
+    line-height: 65px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 0.2em;
+  }
+
+  .title-planetarium {
+    width: 650px;
+    border-bottom: 1px solid #8b8b8b;
+    display: flex;
+  }
+
+  .welcome-wrapper {
+    margin-top: 200px;
+  }
+
+  .benefits-item {
+    border-right: 1px solid #8b8b8b;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .benefits-item h3 {
+    margin: 0;
+    padding-top: 0.5em;
+  }
+
+  .benefits-item-1 {
+    padding-left: 0px;
+  }
+
+  .benefits-item p {
+    margin: 0;
+    padding-top: 0.5em;
+  }
+
+  h2 {
+    font-family: Zen Dots;
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-family: Zen Dots;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+  }
+
+  h4 {
+    font-family: Zen Dots;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+  }
+
+  h5 {
+    font-family: Zen Dots;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+  }
+
+.menu-container ul {
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-item:hover {
+  color: var(--basic-lightblue);
+}
+
+.w-container {
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 4rem;
+  padding-right: 4rem;
+  padding-left: 4rem;
+}
+
+.benefits-list {
+  display: flex;
+}
+
+
+/* About-section */ 
+
+.about-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-images {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.about-list {
+  max-width: 500px;
+}
+
+.about-list h2 {
+  padding-bottom: 1rem;
+}
+
+.about-item {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.about-us-2 {
+  position: relative;
+  top: -8rem;
+  left: -3rem;
+}
+
+/* Accordion */
+
+.accordion {
+  background-color: var(--basic-black);
+  color: var(--basic-white);
+  cursor: pointer;
+  width: 100%;
+  height: 4em;
+  border-bottom: 0.5px solid #8b8b8b;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  
+  display: flex;
+  align-items: center;
+}
+
+.active, .accordion:hover {
+  background-color: var(--basic-lightblue); 
+}
+
+.panel {
+  padding: 0 10px;
+  display: none;
+  background-color: var(--basic-black);
+  overflow: hidden;
+}
+
+
+/* Afisha */
+
+.afisha-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.afisha-item {
+  max-width: 340px;
+  padding-right: 0;
+}
+
+.afisha-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: solid #8B8B8B 1px;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-top: 2em;
+}
+
+.afisha-item-container h5 {
+  margin: 0;
+}
+
+/* Events */
+
+.events-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.events-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Blog */
+
+.blog-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 6em;
+}
+
+.blog-wrapper li {
+  max-width: 300px;
+  padding: 20px;
+  border: 1px solid #8b8b8b;
+}
+
+.blog-wrapper h4 {
+  margin: 0;
+}
+
+/* Form */
+
+.form-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.form-wrapper h4 {
+  max-width: 388px;
+  padding-right: 3em;
+}
+
+#email {
+  border: 1px solid #FFFFFF;
+  background-color: black;
+  color: #ffffff;
+  width: 20em;
+  height: 2.8em;
+  padding-right: 0;
+  margin-right: 0;
+  font-family: Zen Dots;
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+
+button {
+  font-family: Zen Dots;
+  text-transform: uppercase;
+  width: 15em;
+  height: 3.1em;
+  border: none;
+}
+
+button:hover {
+  background-color: var(--basic-lightblue);
+  color: #FFFFFF;
+}
+
+/* Social footer */
+
+.social-wrapper {
+  display: flex;
+}
+
+.social-wrapper li {
+  padding-right: 8em;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-decoration: underline;
+}
+
+.social-item:hover {
+  color: var(--basic-lightblue);
+}
+
+.blog-mars {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* Adaptive for mobile */
+
+@media (max-width: 600px) {
+
+  .menu-container ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+
+  .background-planetarium {
+    background-image: url(/img/Background-image-1.png);
+    background-repeat: no-repeat;
+    max-width: 600px;
+  }
+
+  .benefits-item {
+    margin-top: 30px;
+    border-right: none;
+    padding: 0px;
+  }
+
+  .benefits-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .benefits-list h3 {
+    padding-top: 0px;
+  }
+  
+  h1 {
+    font-size: 45px;
+    line-height: 45px;
+  }
+
+  .title-planetarium {
+    width: 400px;
+    border-bottom: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .about-list h2 {
+    margin-top: 100px;
+  }
+
+  h3 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  h4 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  h5 {
+    font-size: 15px;
+    line-height: 15px;
+  }
+
+  .about-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-us-1 {
+    margin-top: 10px;
+    padding-left: 0;
+    margin-left: -50px;
+    object-fit: contain;
+    max-width: 280px;
+  }
+  
+  .about-us-2 {
+    display: none;
+  }
+
+  .events-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image-events {
+    padding-left: 0px;
+    padding-right: 0px;
+    object-fit: contain;
+    max-width: 280px;
+  }
+
+  .form-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-wrapper h4 {
+    padding: 0px;
+  }
+
+  button {
+    font-family: Zen Dots;
+    text-transform: uppercase;
+    width: 20em;
+    height: 3.1em;
+    border: none;
+    margin-top: 1em;
+  }
+
+  #email {
+    text-align: center;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .social-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+
+  .social-wrapper li {
+    padding-right: 25px;
+  }
+
+  .w-container {
+    margin: auto;
+    margin-top: 4em;
+    padding-left: 25px;
+  }
+
+  .afisha-image {
+    object-fit: contain;
+    max-width: 250px;
+  }
+}
+
+/* Adaptive for tablet */
