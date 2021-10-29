@@ -13,9 +13,7 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-const area = (w, h) => {
-
-};
+let olga = 5;
 
 
 function openCity(evt, cityName) {

@@ -1,112 +1,112 @@
 /* Variables */
 
-  :root {
-     --basic-black: #000000;
-     --basic-white: #FFFFFF;
-     --basic-grey: #8B8B8B;
-     --basic-blue: #0000ff;
-     --basic-lightblue: #64B5F6;
-   }
- 
-   body {
-     font-family: "Roboto Mono", serif;
-     line-height: 24px;
-     font-weight: 700;
-     color: var(--basic-white);
-     text-transform: none;
-     background-color: var(--basic-black);
-   }
+:root {
+  --basic-black: #000000;
+  --basic-white: #ffffff;
+  --basic-grey: #8b8b8b;
+  --basic-blue: #0000ff;
+  --basic-lightblue: #64b5f6;
+}
 
-   .page-wrapper {
-    max-width: 1440px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 4rem;
-    padding-left: 4rem;
-  }
+body {
+  font-family: "Roboto Mono", serif;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--basic-white);
+  text-transform: none;
+  background-color: var(--basic-black);
+}
 
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
+.page-wrapper {
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 4rem;
+  padding-left: 4rem;
+}
 
-  a {
-    text-decoration: none;
-    color: var(--basic-green);
-  }
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
-  .background-planetarium {
-    background-image: url(/img/Background-image-1.png);
-    background-repeat: no-repeat;
-    height: 685px;
-  }
+a {
+  text-decoration: none;
+  color: var(--basic-green);
+}
 
-  h1 {
-    font-family: Zen Dots;
-    font-size: 65px;
-    line-height: 65px;
-    text-transform: uppercase;
-    margin: 0;
-    margin-bottom: 0.2em;
-  }
+.background-planetarium {
+  background-image: url(/img/Background-image-1.png);
+  background-repeat: no-repeat;
+  height: 685px;
+}
 
-  .title-planetarium {
-    width: 650px;
-    border-bottom: 1px solid #8b8b8b;
-    display: flex;
-  }
+h1 {
+  font-family: Zen Dots;
+  font-size: 65px;
+  line-height: 65px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 0.2em;
+}
 
-  .welcome-wrapper {
-    margin-top: 200px;
-  }
+.title-planetarium {
+  width: 650px;
+  border-bottom: 1px solid #8b8b8b;
+  display: flex;
+}
 
-  .benefits-item {
-    border-right: 1px solid #8b8b8b;
-    padding-left: 1em;
-    padding-right: 1em;
-  }
+.welcome-wrapper {
+  margin-top: 200px;
+}
 
-  .benefits-item h3 {
-    margin: 0;
-    padding-top: 0.5em;
-  }
+.benefits-item {
+  border-right: 1px solid #8b8b8b;
+  padding-left: 1em;
+  padding-right: 1em;
+}
 
-  .benefits-item-1 {
-    padding-left: 0px;
-  }
+.benefits-item h3 {
+  margin: 0;
+  padding-top: 0.5em;
+}
 
-  .benefits-item p {
-    margin: 0;
-    padding-top: 0.5em;
-  }
+.benefits-item-1 {
+  padding-left: 0px;
+}
 
-  h2 {
-    font-family: Zen Dots;
-    font-size: 40px;
-    text-transform: uppercase;
-  }
+.benefits-item p {
+  margin: 0;
+  padding-top: 0.5em;
+}
 
-  h3 {
-    font-family: Zen Dots;
-    font-size: 30px;
-    line-height: 30px;
-    text-transform: uppercase;
-  }
+h2 {
+  font-family: Zen Dots;
+  font-size: 40px;
+  text-transform: uppercase;
+}
 
-  h4 {
-    font-family: Zen Dots;
-    font-size: 25px;
-    line-height: 30px;
-    text-transform: uppercase;
-  }
+h3 {
+  font-family: Zen Dots;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
 
-  h5 {
-    font-family: Zen Dots;
-    font-size: 20px;
-    line-height: 25px;
-    text-transform: uppercase;
-  }
+h4 {
+  font-family: Zen Dots;
+  font-size: 25px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-family: Zen Dots;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
 
 .menu-container ul {
   max-width: 1440px;
@@ -136,8 +136,7 @@
   display: flex;
 }
 
-
-/* About-section */ 
+/* About-section */
 
 .about-wrapper {
   display: flex;
@@ -180,13 +179,14 @@
   text-align: left;
   outline: none;
   transition: 0.4s;
-  
+
   display: flex;
   align-items: center;
 }
 
-.active, .accordion:hover {
-  background-color: var(--basic-lightblue); 
+.active,
+.accordion:hover {
+  background-color: var(--basic-lightblue);
 }
 
 .panel {
@@ -195,7 +195,6 @@
   background-color: var(--basic-black);
   overflow: hidden;
 }
-
 
 /* Afisha */
 
@@ -214,7 +213,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-left: solid #8B8B8B 1px;
+  border-left: solid #8b8b8b 1px;
   padding-left: 2em;
   padding-right: 2em;
   margin-top: 2em;
@@ -269,7 +268,7 @@
 }
 
 #email {
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   background-color: black;
   color: #ffffff;
   width: 20em;
@@ -291,7 +290,7 @@ button {
 
 button:hover {
   background-color: var(--basic-lightblue);
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* Social footer */
@@ -321,7 +320,6 @@ button:hover {
 /* Adaptive for mobile */
 
 @media (max-width: 600px) {
-
   .menu-container ul {
     display: flex;
     flex-direction: column;
@@ -348,7 +346,7 @@ button:hover {
   .benefits-list h3 {
     padding-top: 0px;
   }
-  
+
   h1 {
     font-size: 45px;
     line-height: 45px;
@@ -397,7 +395,7 @@ button:hover {
     object-fit: contain;
     max-width: 280px;
   }
-  
+
   .about-us-2 {
     display: none;
   }
